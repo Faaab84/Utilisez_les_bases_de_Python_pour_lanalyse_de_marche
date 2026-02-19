@@ -1,5 +1,21 @@
+
 # projet2
 
+# Scraping Books to Scrape - Pipeline ETL Python
+
+Ce dépôt contient une application Python développée dans le cadre du projet "Utilisez les bases de Python pour l'analyse de marché" (OpenClassrooms).  
+L'objectif est d'automatiser l'extraction des données livres depuis le site fictif [Books to Scrape](https://books.toscrape.com/), site de démonstration dédié au web scraping.
+
+**Fonctionnalités principales :**  
+- Extraction des informations produit (titre, prix, catégorie, disponibilité, note, description, UPC, etc.)  
+- Scraping progressif : produit unique → catégorie → catalogue complet (toutes catégories)  
+- Téléchargement et stockage local des images de couverture  
+- Export structuré des données au format CSV (une catégorie = un fichier)
+
+Le projet implémente une logique **ETL** basique (Extract → Transform → Load) et utilise **requests**, **BeautifulSoup** et **Git** pour le versionnement.
+
+**Pour exécuter :** voir la section *Installation et utilisation* ci-dessous.  
+Un fichier ZIP séparé contenant les données et images générées est fourni à Sam (non inclus dans ce dépôt).
 
 # Comment executer le code de scraping (prérequis avoir installé python et telecharger le repository projet2-main.zip)
 # Etape 1
